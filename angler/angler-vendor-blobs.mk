@@ -484,7 +484,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libmm-qdcm.so:vendor/lib/libmm-qdcm.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmqjpeg_codec.so:vendor/lib/libmmqjpeg_codec.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmmqjpegdma.so:vendor/lib/libmmqjpegdma.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libnetmgr.so:vendor/lib/libnetmgr.so \
     vendor/huawei/angler/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
     vendor/huawei/angler/proprietary/vendor/lib/liboemcrypto.so:vendor/lib/liboemcrypto.so \
     vendor/huawei/angler/proprietary/vendor/lib/libperipheral_client.so:vendor/lib/libperipheral_client.so \
