@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter angler_4core angler, $(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),angler)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := atfwd
