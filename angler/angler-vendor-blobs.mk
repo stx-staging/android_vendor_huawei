@@ -164,15 +164,6 @@ PRODUCT_COPY_FILES += \
 
 # vendor/lib64
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.frameworks.bufferhub@1.0.so:vendor/lib64/android.frameworks.bufferhub@1.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.allocator@2.0.so:vendor/lib64/android.hardware.graphics.allocator@2.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.allocator@3.0.so:vendor/lib64/android.hardware.graphics.allocator@3.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.common@1.0.so:vendor/lib64/android.hardware.graphics.common@1.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.common@1.1.so:vendor/lib64/android.hardware.graphics.common@1.1.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.common@1.2.so:vendor/lib64/android.hardware.graphics.common@1.2.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.mapper@2.0.so:vendor/lib64/android.hardware.graphics.mapper@2.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.mapper@2.1.so:vendor/lib64/android.hardware.graphics.mapper@2.1.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/android.hardware.graphics.mapper@3.0.so:vendor/lib64/android.hardware.graphics.mapper@3.0.so \
     vendor/huawei/angler/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/huawei/angler/proprietary/vendor/lib64/egl/libEGL_adreno.so:vendor/lib64/egl/libEGL_adreno.so \
     vendor/huawei/angler/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -195,11 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libadsprpc.so:vendor/lib64/libadsprpc.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libaudcal.so:vendor/lib64/libaudcal.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libaudioalsa.so:vendor/lib64/libaudioalsa.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libbase.so:vendor/lib64/libbase.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libbccQTI.so:vendor/lib64/libbccQTI.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libbinder.so:vendor/lib64/libbinder.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libbinderthreadstate.so:vendor/lib64/libbinderthreadstate.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libc++.so:vendor/lib64/libc++.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libC2D2.so:vendor/lib64/libC2D2.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libc2d30-a3xx.so:vendor/lib64/libc2d30-a3xx.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libc2d30-a4xx.so:vendor/lib64/libc2d30-a4xx.so \
@@ -208,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libcneapiclient.so:vendor/lib64/libcneapiclient.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libcne.so:vendor/lib64/libcne.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libconfigdb.so:vendor/lib64/libconfigdb.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libcutils.so:vendor/lib64/libcutils.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libdiag.so:vendor/lib64/libdiag.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libdisp-aba.so:vendor/lib64/libdisp-aba.so \
     vendor/huawei/angler/proprietary/vendor/lib64/lib-dplmedia.so:vendor/lib64/lib-dplmedia.so \
@@ -219,10 +205,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libgeofence.so:vendor/lib64/libgeofence.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libgsl.so:vendor/lib64/libgsl.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libhardware.so:vendor/lib64/libhardware.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libhidlbase.so:vendor/lib64/libhidlbase.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libhidltransport.so:vendor/lib64/libhidltransport.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libhwbinder.so:vendor/lib64/libhwbinder.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libhwgetnv.so:vendor/lib64/libhwgetnv.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libhwnv.so:vendor/lib64/libhwnv.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libhwsarcontrol.so:vendor/lib64/libhwsarcontrol.so \
@@ -254,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/liblqe.so:vendor/lib64/liblqe.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libmdmdetect.so:vendor/lib64/libmdmdetect.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libmdsprpc.so:vendor/lib64/libmdsprpc.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libmemalloc.so:vendor/lib64/libmemalloc.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libmm-abl-oem.so:vendor/lib64/libmm-abl-oem.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libmm-abl.so:vendor/lib64/libmm-abl.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libmm-als.so:vendor/lib64/libmm-als.so \
@@ -265,12 +246,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libmm-qdcm.so:vendor/lib64/libmm-qdcm.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libnetmgr.so:vendor/lib64/libnetmgr.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libperipheral_client.so:vendor/lib64/libperipheral_client.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libprocessgroup.so:vendor/lib64/libprocessgroup.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqcci_legacy.so:vendor/lib64/libqcci_legacy.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqdi.so:vendor/lib64/libqdi.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqdp.so:vendor/lib64/libqdp.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libqdMetaData.so:vendor/lib64/libqdMetaData.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libqdutils.so:vendor/lib64/libqdutils.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqmi_cci.so:vendor/lib64/libqmi_cci.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqmi_client_helper.so:vendor/lib64/libqmi_client_helper.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqmi_client_qmux.so:vendor/lib64/libqmi_client_qmux.so \
@@ -281,7 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libqmiservices.so:vendor/lib64/libqmiservices.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqmi.so:vendor/lib64/libqmi.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libQSEEComAPI.so:vendor/lib64/libQSEEComAPI.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libqservice.so:vendor/lib64/libqservice.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libqti-perfd-client.so:vendor/lib64/libqti-perfd-client.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libquipc_os_api.so:vendor/lib64/libquipc_os_api.so \
     vendor/huawei/angler/proprietary/vendor/lib64/lib-rcsimssjni.so:vendor/lib64/lib-rcsimssjni.so \
@@ -304,8 +281,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libthermalioctl.so:vendor/lib64/libthermalioctl.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libtime_genoff.so:vendor/lib64/libtime_genoff.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libtzdrmgenprov.so:vendor/lib64/libtzdrmgenprov.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libui.so:vendor/lib64/libui.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/libutils.so:vendor/lib64/libutils.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libvoice-svc.so:vendor/lib64/libvoice-svc.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libwms.so:vendor/lib64/libwms.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libxml.so:vendor/lib64/libxml.so \
@@ -314,15 +289,6 @@ PRODUCT_COPY_FILES += \
 
 # vendor/lib
 PRODUCT_COPY_FILES += \
-    vendor/huawei/angler/proprietary/vendor/lib/android.frameworks.bufferhub@1.0.so:vendor/lib/android.frameworks.bufferhub@1.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.allocator@2.0.so:vendor/lib/android.hardware.graphics.allocator@2.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.allocator@3.0.so:vendor/lib/android.hardware.graphics.allocator@3.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.common@1.0.so:vendor/lib/android.hardware.graphics.common@1.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.common@1.1.so:vendor/lib/android.hardware.graphics.common@1.1.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.common@1.2.so:vendor/lib/android.hardware.graphics.common@1.2.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.mapper@2.0.so:vendor/lib/android.hardware.graphics.mapper@2.0.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.mapper@2.1.so:vendor/lib/android.hardware.graphics.mapper@2.1.so \
-    vendor/huawei/angler/proprietary/vendor/lib/android.hardware.graphics.mapper@3.0.so:vendor/lib/android.hardware.graphics.mapper@3.0.so \
     vendor/huawei/angler/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/huawei/angler/proprietary/vendor/lib/egl/libEGL_adreno.so:vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/angler/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -348,11 +314,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libadsprpc.so:vendor/lib/libadsprpc.so \
     vendor/huawei/angler/proprietary/vendor/lib/libaudcal.so:vendor/lib/libaudcal.so \
     vendor/huawei/angler/proprietary/vendor/lib/libaudioalsa.so:vendor/lib/libaudioalsa.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libbase.so:vendor/lib/libbase.so \
     vendor/huawei/angler/proprietary/vendor/lib/libbccQTI.so:vendor/lib/libbccQTI.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libbinder.so:vendor/lib/libbinder.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libbinderthreadstate.so:vendor/lib/libbinderthreadstate.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libc++.so:vendor/lib/libc++.so \
     vendor/huawei/angler/proprietary/vendor/lib/libC2D2.so:vendor/lib/libC2D2.so \
     vendor/huawei/angler/proprietary/vendor/lib/libc2d30-a3xx.so:vendor/lib/libc2d30-a3xx.so \
     vendor/huawei/angler/proprietary/vendor/lib/libc2d30-a4xx.so:vendor/lib/libc2d30-a4xx.so \
@@ -401,7 +363,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libcneapiclient.so:vendor/lib/libcneapiclient.so \
     vendor/huawei/angler/proprietary/vendor/lib/libcne.so:vendor/lib/libcne.so \
     vendor/huawei/angler/proprietary/vendor/lib/libconfigdb.so:vendor/lib/libconfigdb.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libcutils.so:vendor/lib/libcutils.so \
     vendor/huawei/angler/proprietary/vendor/lib/libdiag.so:vendor/lib/libdiag.so \
     vendor/huawei/angler/proprietary/vendor/lib/lib-dplmedia.so:vendor/lib/lib-dplmedia.so \
     vendor/huawei/angler/proprietary/vendor/lib/libdrmfs.so:vendor/lib/libdrmfs.so \
@@ -412,10 +373,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libgoog_eis_armeabi-v7a.so:vendor/lib/libgoog_eis_armeabi-v7a.so \
     vendor/huawei/angler/proprietary/vendor/lib/libgoog_rownr.so:vendor/lib/libgoog_rownr.so \
     vendor/huawei/angler/proprietary/vendor/lib/libgsl.so:vendor/lib/libgsl.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libhardware.so:vendor/lib/libhardware.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libhidlbase.so:vendor/lib/libhidlbase.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libhidltransport.so:vendor/lib/libhidltransport.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libhwbinder.so:vendor/lib/libhwbinder.so \
     vendor/huawei/angler/proprietary/vendor/lib/libidl.so:vendor/lib/libidl.so \
     vendor/huawei/angler/proprietary/vendor/lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so \
     vendor/huawei/angler/proprietary/vendor/lib/lib-imsdpl.so:vendor/lib/lib-imsdpl.so \
@@ -442,7 +399,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libloc_ds_api.so:vendor/lib/libloc_ds_api.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmdmdetect.so:vendor/lib/libmdmdetect.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmdsprpc.so:vendor/lib/libmdsprpc.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libmemalloc.so:vendor/lib/libmemalloc.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmm-abl-oem.so:vendor/lib/libmm-abl-oem.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmm-abl.so:vendor/lib/libmm-abl.so \
     vendor/huawei/angler/proprietary/vendor/lib/libmm-als.so:vendor/lib/libmm-als.so \
@@ -533,11 +489,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/liboemcrypto.so:vendor/lib/liboemcrypto.so \
     vendor/huawei/angler/proprietary/vendor/lib/libperipheral_client.so:vendor/lib/libperipheral_client.so \
     vendor/huawei/angler/proprietary/vendor/lib/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libprocessgroup.so:vendor/lib/libprocessgroup.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqcci_legacy.so:vendor/lib/libqcci_legacy.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqdi.so:vendor/lib/libqdi.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libqdMetaData.so:vendor/lib/libqdMetaData.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libqdutils.so:vendor/lib/libqdutils.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqmi_cci.so:vendor/lib/libqmi_cci.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqmi_client_helper.so:vendor/lib/libqmi_client_helper.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqmi_client_qmux.so:vendor/lib/libqmi_client_qmux.so \
@@ -550,7 +503,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:vendor/lib/libqomx_jpegenc_pipe.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so \
     vendor/huawei/angler/proprietary/vendor/lib/libQSEEComAPI.so:vendor/lib/libQSEEComAPI.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libqservice.so:vendor/lib/libqservice.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqti-perfd-client.so:vendor/lib/libqti-perfd-client.so \
     vendor/huawei/angler/proprietary/vendor/lib/lib-rcsimssjni.so:vendor/lib/lib-rcsimssjni.so \
     vendor/huawei/angler/proprietary/vendor/lib/lib-rcsjni.so:vendor/lib/lib-rcsjni.so \
@@ -572,8 +524,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
     vendor/huawei/angler/proprietary/vendor/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
     vendor/huawei/angler/proprietary/vendor/lib/libtzdrmgenprov.so:vendor/lib/libtzdrmgenprov.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libui.so:vendor/lib/libui.so \
-    vendor/huawei/angler/proprietary/vendor/lib/libutils.so:vendor/lib/libutils.so \
     vendor/huawei/angler/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
     vendor/huawei/angler/proprietary/vendor/lib/libwms.so:vendor/lib/libwms.so \
     vendor/huawei/angler/proprietary/vendor/lib/libxml.so:vendor/lib/libxml.so \
