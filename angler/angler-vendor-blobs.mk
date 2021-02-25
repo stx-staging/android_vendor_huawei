@@ -286,7 +286,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libwvhidl.so:vendor/lib64/libwvhidl.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libxml.so:vendor/lib64/libxml.so \
     vendor/huawei/angler/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
-    vendor/huawei/angler/proprietary/vendor/lib64/nfc_nci.angler.so:vendor/lib64/hw/nfc_nci.angler.so
+    vendor/huawei/angler/proprietary/vendor/lib64/nfc_nci.angler.so:vendor/lib64/hw/nfc_nci.angler.so \
+    vendor/huawei/angler/proprietary/vendor/lib64/vendor.qti.atcmdfwd@1.0.so:vendor/lib64/vendor.qti.atcmdfwd@1.0.so \
+    vendor/huawei/angler/proprietary/vendor/lib64/vendor.qti.qcril.am@1.0.so:vendor/lib64/vendor.qti.qcril.am@1.0.so 
 
 # vendor/lib
 PRODUCT_COPY_FILES += \
