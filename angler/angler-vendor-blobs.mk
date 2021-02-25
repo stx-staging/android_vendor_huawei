@@ -491,6 +491,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/liboemcamera.so:vendor/lib/liboemcamera.so \
     vendor/huawei/angler/proprietary/vendor/lib/liboemcrypto.so:vendor/lib/liboemcrypto.so \
     vendor/huawei/angler/proprietary/vendor/lib/libperipheral_client.so:vendor/lib/libperipheral_client.so \
+    vendor/huawei/angler/proprietary/vendor/lib64/libprotobuf-cpp-lite-v28.so:vendor/lib64/libprotobuf-cpp-lite-v28.so \
     vendor/huawei/angler/proprietary/vendor/lib/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqcci_legacy.so:vendor/lib/libqcci_legacy.so \
     vendor/huawei/angler/proprietary/vendor/lib/libqdi.so:vendor/lib/libqdi.so \
