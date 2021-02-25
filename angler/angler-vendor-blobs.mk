@@ -283,6 +283,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib64/libtzdrmgenprov.so:vendor/lib64/libtzdrmgenprov.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libvoice-svc.so:vendor/lib64/libvoice-svc.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libwms.so:vendor/lib64/libwms.so \
+    vendor/huawei/angler/proprietary/vendor/lib64/libwvhidl.so:vendor/lib64/libwvhidl.so \
     vendor/huawei/angler/proprietary/vendor/lib64/libxml.so:vendor/lib64/libxml.so \
     vendor/huawei/angler/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/huawei/angler/proprietary/vendor/lib64/nfc_nci.angler.so:vendor/lib64/hw/nfc_nci.angler.so
@@ -526,6 +527,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/lib/libtzdrmgenprov.so:vendor/lib/libtzdrmgenprov.so \
     vendor/huawei/angler/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
     vendor/huawei/angler/proprietary/vendor/lib/libwms.so:vendor/lib/libwms.so \
+    vendor/huawei/angler/proprietary/vendor/lib/libwvhidl.so:vendor/lib/libwvhidl.so \
     vendor/huawei/angler/proprietary/vendor/lib/libxml.so:vendor/lib/libxml.so \
     vendor/huawei/angler/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/angler/proprietary/vendor/lib/soundfx/libfmas.so:vendor/lib/soundfx/libfmas.so \
